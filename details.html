@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Yuzum | Детали проекта</title>
+    <meta name="description" content="Мы разрабатываем программное обеспечение, веб-сайты, интернет-магазины, а также мобильные приложения для iOS и Android. Предоставляем техническую поддержку, делаем аудит и рефакторинг существующих проектов">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#0b0a16">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#0b0a16">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b0a16">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" media="all" href="css/app.css">
+  </head>
+  <body>
+    <div id="loading"></div>
+    <div class="site-container">
+      <!-- BEGIN header-->
+      <!--BEGIN header-->
+      <header class="site-scroll site-header">
+        <div class="site-scroll__wrapper site-header__wrapper">
+          <a href="index.html" class="site-header__logo-wrapper" aria-label="Логотип Yuzum">
+            <svg class="site-header__logo-icon" width="34" height="39">
+              <use xlink:href="./img/sprite.svg#icon-logo" />
+            </svg>
+          </a>
+          <ul class="site-header__language-list">
+            <li class="site-header__language-item site-header__language-item--current">
+              <a href="#" class="site-header__language-link" aria-current="true" aria-label="Русская версия сайта">ru</a>
+            </li>
+            <li class="site-header__language-item">
+              <a href="#" class="site-header__language-link" lang="en" aria-label="English version of site">en</a>
+            </li>
+          </ul>
+          <div class="site-header__contacts-wrapper site-scroll__contacts-wrapper">
+            <a href="./contacts.html" class="btn site-header__contacts-order">Заказать</a>
+          </div>
+          <nav class="site-menu__nav site-scroll__nav">
+            <button id="navToggler" class="site-menu__nav-toggler" aria-label="Кнопка меню">
+              <div class="shape">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
+              <div class="close"></div>
+            </button>
+            <div class="site-menu__wrapper">
+              <ul class="site-menu__list">
+                <li class="site-menu__item site-menu__item--current site-scroll__menu-item">
+                  <a href="./main.html" class="site-menu__link">О нас</a>
+                </li>
+                <li class="site-menu__item site-scroll__menu-item">
+                  <a href="./projects.html" class="site-menu__link">Проекты</a>
+                </li>
+                <li class="site-menu__item site-scroll__menu-item">
+                  <a href="./contacts.html" class="site-menu__link">Контакты</a>
+                </li>
+                <li class="site-menu__item">
+                  <button class="site-menu__item theme-switcher">
+                    <svg class="site-header__logo-icon theme--white" width="34" height="39">
+                      <use xlink:href="./img/sprite.svg#icon-lamp" />
+                    </svg>
+                  </button>
+                </li>
+              </ul>
+              <div class="site-menu__bg site-scroll__bg" aria-hidden="true"></div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!--END header-->
+      <!-- END header-->
+      <!-- BEGIN CONTENT-->
+      <main data-router-wrapper>
+        <section data-router-view="details">
+          <div class="product-details">
+            <div class="product-details__wrapper">
+              <div class="product-details__inner">
+                <div class="product-details__main-content">
+                  <div class="product-details__text-inner--sm">
+                    <h3 class="product-details__title product-details__title--sm"> Торговая площадка</h3>
+                    <p class="product-details__text product-details__text--mt">Виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из Турции. Товары на площадке продаются в розницу и оптом. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="capitalize">
+                <div class="capitalize__item"> ttturk </div>
+              </div>
+              <div class="cards__inner">
+                <div class="cards">
+                  <div class="cards__item">
+                    <picture><img src="./img/cards/card.jpg" srcset="./img/cards/card@2x.jpg 2x" alt="" /></picture>
+                  </div>
+                  <div class="cards__item">
+                    <picture><img src="./img/cards/card2.jpg" srcset="./img/cards/card2@2x.jpg 2x" alt="" /></picture>
+                  </div>
+                </div>
+              </div>
+              <div class="product-details__inner">
+                <div class="product-details__main-content">
+                  <div class="product-details__text-inner">
+                    <h3 class="product-details__title">о проекте<span class="product-details__title--red"> ttturk</span></h3>
+                    <p class="product-details__text product-details__text-item">Описание проекта скоро появится</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="glide-details__inner">
+              <div class="glide-details__wrapper">
+                <div class="glide glide-details" id="devlet__details-slider">
+                  <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides glide-details__slides">
+                      <li class="glide__slide glide-details__slide">
+                        <picture><img src="./img/product-details/tturk1.jpg" srcset="./img/product-details/tturk1@2x.jpg 2x" alt="" /></picture>
+                      </li>
+                      <li class="glide__slide glide-details__slide">
+                        <picture><img src="./img/product-details/tturk2.jpg" srcset="./img/product-details/tturk2@2x.jpg 2x" alt="" /></picture>
+                      </li>
+                      <li class="glide__slide glide-details__slide">
+                        <picture><img src="./img/product-details/tturk3.jpg" srcset="./img/product-details/tturk3@2x.jpg 2x" alt="" /></picture>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="glide-details__items">
+                    <div class="glide-details__bullets" data-glide-el="controls[nav]"><button class="glide-details__bullet" data-glide-dir="=0"></button><button class="glide-details__bullet" data-glide-dir="=1"></button><button class="glide-details__bullet" data-glide-dir="=2"></button></div>
+                    <div class="glide-details__arrows" data-glide-el="controls"><button class="glide-details__arrow glide-details__arrow--prev" data-glide-dir="&lt;"><svg class="glide-details__icon">
+                          <use xlink:href="./img/sprite.svg#icon-bck"></use>
+                        </svg></button><button class="glide-details__arrow glide-details__arrow--next" data-glide-dir="&gt;"><svg class="glide-details__icon">
+                          <use xlink:href="./img/sprite.svg#icon-nxt"></use>
+                        </svg></button></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-cards__inner">
+              <div class="glide project-cards__slider">
+                <div class="project-cards__text-inner">
+                  <h2 class="project-cards__text-item">Наши проекты </h2>
+                  <div class="glide-details__arrows" data-glide-el="controls">
+                    <button class="glide-details__arrow glide-details__arrow--prev" data-glide-dir="<">
+                      <svg class="glide-details__icon">
+                        <use xlink:href="./img/sprite.svg#icon-bck" />
+                      </svg>
+                    </button>
+                    <button class="glide-details__arrow glide-details__arrow--next" data-glide-dir=">">
+                      <svg class="glide-details__icon">
+                        <use xlink:href="./img/sprite.svg#icon-nxt" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="glide__track project-cards__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide"><a class="project-cards__item" href="./project-gild.html"><img class="project-cards__item-img" src="./img/project-cards/card1.jpg" alt="" />
+                        <div class="project-cards__content">
+                          <div class="project-cards__logo"><img src="../img/project-cards/gild.svg" /></div><span class="project-cards__description t-crop">Инструмент по подбору исполнителей</span><span class="project-cards__link">посмотреть </span>
+                        </div>
+                      </a></li>
+                    <li class="glide__slide"><a class="project-cards__item" href="./details.html"><img class="project-cards__item-img" src="./img/project-cards/card2.jpg" alt="" />
+                        <div class="project-cards__content">
+                          <div class="project-cards__logo"><img src="../img/project-cards/tturk.svg" /></div><span class="project-cards__description t-crop">Торговая площадка, с товарами из Турции</span><span class="project-cards__link">посмотреть </span>
+                        </div>
+                      </a></li>
+                    <li class="glide__slide"><a class="project-cards__item" href="./proj-devlet.html"><img class="project-cards__item-img" src="./img/project-cards/card3.jpg" alt="" />
+                        <div class="project-cards__content">
+                          <div class="project-cards__logo"><img src="../img/project-cards/devlet.svg" /></div><span class="project-cards__description t-crop">Веб-сайт Девлет Сарай Музея</span><span class="project-cards__link">посмотреть </span>
+                        </div>
+                      </a></li>
+                    <li class="glide__slide"><a class="project-cards__item" href="./proj-doza.html"><img class="project-cards__item-img" src="./img/project-cards/card4.jpg" alt="" />
+                        <div class="project-cards__content">
+                          <div class="project-cards__logo"><img src="../img/project-cards/doza.svg" /></div><span class="project-cards__description t-crop">Обучающее приложение для фармацевтов</span><span class="project-cards__link">посмотреть </span>
+                        </div>
+                      </a></li>
+                    <li class="glide__slide"><a class="project-cards__item" href="./proj-sc.html"><img class="project-cards__item-img" src="./img/project-cards/card5.jpg" alt="" />
+                        <div class="project-cards__content">
+                          <div class="project-cards__logo"><img src="../img/project-cards/sportcity.svg" /></div><span class="project-cards__description t-crop">Интернет-магазин Sportcity</span><span class="project-cards__link">посмотреть </span>
+                        </div>
+                      </a></li>
+                    <li class="glide__slide"><a class="project-cards__item" href="./proj-library.html"><img class="project-cards__item-img" src="./img/project-cards/card6.jpg" alt="" />
+                        <div class="project-cards__content">
+                          <div class="project-cards__logo"><img src="../img/project-cards/library.svg" /></div><span class="project-cards__description t-crop">Девлет Сарай онлайн-библиотека </span><span class="project-cards__link">посмотреть </span>
+                        </div>
+                      </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main><!-- END CONTENT-->
+      <!-- BEGIN footer-->
+      <!-- END footer-->
+      <div class="action-blocker active"></div>
+    </div>
+    <!--LOAD SCRIPTS-->
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
